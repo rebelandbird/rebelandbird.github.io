@@ -1,7 +1,7 @@
 body {
     text-align: center;
 
-    font-family: 'Benton sans','Open Sans', sans-serif;
+    font-family: 'Benton Sans','Open Sans', sans-serif;
 }
 
 section {
@@ -57,6 +57,7 @@ header {
 
 footer {
     background-color: $footer-background-color;
+    color: $list-text-color;
     @extend section;
 
     > ul {
@@ -66,7 +67,7 @@ footer {
     }
 
     a {
-        color: $text-color;
+        color: $list-text-color;
     }
 }
 
@@ -114,6 +115,7 @@ footer {
     .list {
         > li {
             font-size: 1.1em;
+            color: $list-text-color;
         }
     }
 }
