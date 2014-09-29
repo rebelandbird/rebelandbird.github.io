@@ -30,6 +30,7 @@ header {
     overflow: hidden;
 
     h1 {
+        font-family: 'Benton Sans Light', sans-serif;
         margin: 0;
     }
 
@@ -69,6 +70,7 @@ footer {
 }
 
 .hiring {
+    font-family: 'Benton Sans Light', sans-serif;
     background-color: $brand-color;
     color: $brand-text-color;
 
@@ -83,7 +85,7 @@ footer {
 
 .wedo {
     h2 {
-        font-family: "museo-slab", arial;
+        font-family: 'Benton Sans Light', sans-serif;
     }
 
     > ul {
@@ -101,7 +103,7 @@ footer {
 .message {
     p {
         margin: 60px 0;
-        font-family: "museo-slab", arial;
+        font-family: 'Benton Sans Light', sans-serif;
         font-size: 1.4em;
     }
 
