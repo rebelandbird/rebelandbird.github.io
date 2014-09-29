@@ -31,6 +31,7 @@ header {
 
     h1 {
         font-family: 'Benton Sans Light', sans-serif;
+        font-size: 1.3em;
         margin: 0;
     }
 
@@ -45,7 +46,7 @@ header {
     #logobox {
         position: relative;
         top: 250px;
-        width: 600px;
+        width: $text-width;
         margin: 0 auto;
     }
 
@@ -73,6 +74,12 @@ footer {
     font-family: 'Benton Sans Light', sans-serif;
     background-color: $brand-color;
     color: $brand-text-color;
+    font-size: 1.3em;
+
+    p {
+        width: $text-width;
+        margin: 0 auto;
+    }
 
     button {
         border: 1px solid $line-color;
@@ -80,12 +87,16 @@ footer {
         color: $brand-text-color;
         padding: 15px;
         text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-top: 20px;
     }
 }
 
 .wedo {
     h2 {
         font-family: 'Benton Sans Light', sans-serif;
+        font-size: 1.3em;
     }
 
     > ul {
@@ -102,7 +113,8 @@ footer {
 
 .message {
     p {
-        margin: 60px 0;
+        margin: 60px auto;
+        width: $text-width;
         font-family: 'Benton Sans Light', sans-serif;
         font-size: 1.4em;
     }
@@ -129,5 +141,7 @@ footer {
 .title {
     text-transform: uppercase;
     margin-bottom: $spacing-unit / 2;
-    font-weight: 400;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 0.8em;
 }
