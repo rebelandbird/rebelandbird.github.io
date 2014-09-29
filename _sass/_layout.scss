@@ -31,7 +31,7 @@ header {
 
     h1 {
         font-family: 'Benton Sans Light', sans-serif;
-        font-size: 1.3em;
+        font-size: $font-size;
         margin: 0;
     }
 
@@ -74,7 +74,7 @@ footer {
     font-family: 'Benton Sans Light', sans-serif;
     background-color: $brand-color;
     color: $brand-text-color;
-    font-size: 1.3em;
+    font-size: $font-size;
 
     p {
         width: $text-width;
@@ -96,7 +96,7 @@ footer {
 .wedo {
     h2 {
         font-family: 'Benton Sans Light', sans-serif;
-        font-size: 1.3em;
+        font-size: $font-size;
     }
 
     > ul {
@@ -107,6 +107,12 @@ footer {
             img {
                 width: 100px;
             }
+        }
+    }
+
+    .list {
+        > li {
+            font-size: 1.1em;
         }
     }
 }
@@ -142,6 +148,5 @@ footer {
     text-transform: uppercase;
     margin-bottom: $spacing-unit / 2;
     letter-spacing: 1px;
-    font-weight: bold;
     font-size: 0.8em;
 }
