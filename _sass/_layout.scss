@@ -58,6 +58,7 @@ header {
 footer {
     background-color: $footer-background-color;
     color: $list-text-color;
+    margin-top: 20px;
     @extend section;
 
     > ul {
@@ -102,6 +103,8 @@ footer {
     }
 
     > ul {
+        max-width: $text-width + 100;
+        margin: 0 auto;
         > li {
             width: 50%;
             margin-top: 50px;
@@ -152,6 +155,10 @@ footer {
             width: 33%;
             margin: 30px 0;
         }
+    }
+
+    .title {
+        margin-top: 0px;
     }
 }
 
