@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<section class="hiring">
+    <p>We are hiring! Adventurous developer, rebellious designer or innovative data-driven analyst?</p>
+    <button>Open positions</button>
+</section>
+
+<section class="wedo">
+    <div class="title">We do</div>
+
+    <ul>
+      {% for section in site.offer %}
+      <li>
+        <img src="images/{{ section.image }}">
+        <h2>{{ section.title }}</h2>
+        <ul>
+        {% for item in section.list %}
+          <li>{{ item }}</li>
+        {% endfor %}
+        </ul>
+      </li>
+      {% endfor %}
+    </ul>
+</section>
+
+<section class="message">
+    <p>{{ site.message }}</p>
+</section>
+
+<section class="clients">
+    <div class="title">Clients include</div>
+    <ul>
+        <li><img src="images/logo_spotify.png"></li>
+        <li><img src="images/logo_telia.png"></li>
+        <li><img src="images/logo_omni.png"></li>
+        <li><img src="images/logo_fl.png"></li>
+        <li><img src="images/logo_sll.png"></li>
+        <li><img src="images/logo_tomtits.png"></li>
+    </lu>
+</section>
