@@ -45,27 +45,9 @@ img {
 }
 
 
-
-/**
- * Figures
- */
-figure > img {
-    display: block;
-}
-
-figcaption {
-    font-size: $small-font-size;
-}
-
-
-
 /**
  * Lists
  */
-ul, ol {
-
-}
-
 li {
     > ul,
     > ol {
@@ -143,7 +125,6 @@ a {
  * Icons
  */
 .icon {
-
     > svg {
         display: inline-block;
         width: 16px;
