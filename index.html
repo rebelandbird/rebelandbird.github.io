@@ -2,9 +2,9 @@
 layout: default
 ---
 
-{% if site.hiring %}
+{% if site.data.content.hiring %}
 <section class="hiring">
-    <p>{{ site.hiring }}</p>
+    <p>{{ site.data.content.hiring }}</p>
     <button>Open positions</button>
 </section>
 {% endif %}
@@ -13,7 +13,7 @@ layout: default
     <div class="title">We do</div>
 
     <ul>
-      {% for section in site.offer %}
+      {% for section in site.data.content.offer %}
       <li>
         <img src="images/{{ section.image }}">
         <h2>{{ section.title }}</h2>
@@ -28,7 +28,7 @@ layout: default
 </section>
 
 <section class="message">
-    <p>{{ site.message }}</p>
+    <p>{{ site.data.content.message }}</p>
 </section>
 
 <section class="clients">
