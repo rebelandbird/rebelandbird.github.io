@@ -25,7 +25,10 @@ $line-color:       #E9E9E9;
 $text-width:       650px;
 $font-size:        1.6em;
 
-$on-palm:          600px;
+
+
+
+$on-palm:          640px;
 $on-laptop:        800px;
 
 
@@ -43,6 +46,12 @@ $on-laptop:        800px;
     }
 }
 
+@mixin dynamic-width() {
+    width: $text-width;
+    @include media-query($on-palm) {
+        width: 90%;
+    }
+}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
