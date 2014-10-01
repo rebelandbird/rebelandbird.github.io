@@ -43,3 +43,6 @@ message: Our clients reach more people, have more engaged users and more paying 
 email: hello@rebelandbird.com
 adress: Sveavägen 52, Stockholm
 phone: +46 707 320 654
+
+# Open positions (for actual positions, see separate positions.yml file)
+jobsemail: jobs@rebelandbird.com

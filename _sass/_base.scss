@@ -84,7 +84,9 @@ a {
     }
 }
 
-
+:focus {
+    outline: none;
+}
 
 /**
  * Clearfix

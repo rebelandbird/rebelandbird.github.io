@@ -5,9 +5,35 @@ layout: default
 {% if site.data.content.hiring %}
 <section class="hiring">
     <p>{{ site.data.content.hiring }}</p>
-    <button>Open positions</button>
+    <a href="#positions" id="openpositions"><button>Open positions</button></a>
 </section>
 {% endif %}
+
+<section id="positions">
+    <img id="closepositions" src="/images/close_x.svg">
+    <ul id="positionlist">
+    {% for position in site.data.positions %}
+        <li data-position="#{{ position.slug }}"><a href="#{{ position.slug }}">{{ position.title }}</a></li>
+    {% endfor %}
+    </ul>
+
+    {% for position in site.data.positions %}
+        <div class="position" id="{{ position.slug }}">
+            <h2>{{ position.title }}</h2>
+            {{ position.description | textilize }}
+
+            <div class="title">We want to see</div>
+            <ul class="requirements">
+            {% for requirement in position.requirements %}
+                <li><span class="requirement">{{ requirement }}</span></li>
+            {% endfor %}
+            </ul>
+            <div class="submit">
+                <a href="mailto:{{ site.data.content.jobsemail }}"><button>Apply now - {{ site.data.content.jobsemail }}</button></a>
+            </div>
+        </div>
+    {% endfor %}
+</section>
 
 <section class="wedo">
     <div class="title">We do</div>
@@ -15,7 +41,7 @@ layout: default
     <ul>
       {% for section in site.data.content.offer %}
       <li>
-        <img src="images/{{ section.image }}">
+        <img src="/images/{{ section.image }}">
         <h2>{{ section.title }}</h2>
         <ul class="list">
         {% for item in section.list %}
