@@ -279,13 +279,27 @@ footer {
 #headerlayer {
     background-color: rgba(0, 0, 0, 0.5);
     -webkit-animation: thefade 1.5s ease;
+    -moz-animation: thefade 1.5s ease;
+    animation: thefade 1.5s ease;
 }
 
 #logobox {
     -webkit-animation: thefade 1s ease;
+    -moz-animation: thefade 1s ease;
+    animation: thefade 1s ease;
 }
 
 @-webkit-keyframes thefade {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-moz-keyframes thefade {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes thefade {
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
