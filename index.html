@@ -29,7 +29,7 @@ layout: default
             {% endfor %}
             </ul>
             <div class="submit">
-                <a href="mailto:{{ site.data.content.jobsemail }}"><button>Apply now - {{ site.data.content.jobsemail }}</button></a>
+                <a href="mailto:{{ site.data.content.jobsemail }}?subject={{ position.title }}"><button>Apply now - {{ site.data.content.jobsemail }}</button></a>
             </div>
         </div>
     {% endfor %}
