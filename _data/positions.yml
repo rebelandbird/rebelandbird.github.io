@@ -31,8 +31,14 @@
 
 - title: Analyst
   slug: analyst
-  description: >
-    Analyst...
+  description: |
+    Your are a digital native that see how data can drive and feed back to product strategy, organisational change and business development. You know the digital eco-system inside out and what factors are important to grow a product.
+
+    You got the tools and skills to get the data you want, mash it up and present it. Your comfort zone shall be significantly larger than iWork and you are probably no stranger to the command-line.
 
   requirements:
-    - "Analyst..."
+    - "Love for metrics; LTV, CTR, CTA, KPI, funnels, cohort analysis, conversion, and more is just a start."
+    - "Know-how of online analytics tools such as Mixpanel, Google Analytics, AppsFlyer, Optimizely, etc."
+    - "Insight into how to apply metrics to the organisation, product and business and how leverage it."
+    - "Being comfortable digging into APIs or parsing logs to tailor data to your needs."
+    - "Presentation skills of your analysis, statistics and data to effectively feedback to stakeholders."
