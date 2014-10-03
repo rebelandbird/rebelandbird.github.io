@@ -141,6 +141,11 @@ footer {
         height: 40px;
         position: absolute;
         cursor: pointer;
+
+        @include media-query($on-palm) {
+            right: 20px;
+            top: 20px;
+        }
     }
 
     #positionlist {
