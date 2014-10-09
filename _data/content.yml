@@ -4,9 +4,12 @@ description: >
   Our work blend digital product development and market communication.
 
 # Hiring
+hiring-button: Open positions
 hiring: We are hiring! Adventurous developer, rebellious designer or innovative data-driven analyst?
+requirements-title: We want to see
 
 # What we do
+offer-title: We do
 offer:
  - title: Analytics and Strategy
    image: pic_strategy.svg
@@ -38,6 +41,8 @@ offer:
 
 # Message
 message: We give our clients more reach, more engaged users and more paying customers - faster.
+
+clients-title: Clients include
 
 # Contact
 email: hello@rebelandbird.com

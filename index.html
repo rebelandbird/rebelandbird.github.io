@@ -5,7 +5,7 @@ layout: default
 {% if site.data.content.hiring %}
 <section class="hiring">
     <p>{{ site.data.content.hiring }}</p>
-    <a href="#positions" id="openpositions"><button>Open positions</button></a>
+    <a href="#positions" id="openpositions"><button>{{ site.data.content.hiring-button }}</button></a>
 </section>
 {% endif %}
 
@@ -22,7 +22,7 @@ layout: default
             <h2>{{ position.title }}</h2>
             {{ position.description | textilize }}
 
-            <div class="title">We want to see</div>
+            <div class="title">{{ site.data.content.requirements-title }}</div>
             <ul class="requirements">
             {% for requirement in position.requirements %}
                 <li><span class="requirement">{{ requirement }}</span></li>
@@ -36,7 +36,7 @@ layout: default
 </section>
 
 <section class="wedo">
-    <div class="title">We do</div>
+    <div class="title">{{ site.data.content.offer-title }}</div>
 
     <ul>
       {% for section in site.data.content.offer %}
