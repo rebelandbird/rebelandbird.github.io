@@ -5,7 +5,7 @@
 
     <meta property="fb:app_id" content="302184056577324" />
     <meta property="og:type"   content="website" />
-    <meta property="og:url"    content="http://www.rebelandbird.com" />
+    <meta property="og:url"    content="{{ page.url | replace:'index.html','' | prepend: site.url }}" />
     <meta property="og:title"  content="Rebel & Bird" />
     <meta property="og:site_name" content="Rebel & Bird"/>
     <meta property="og:image"  content="http://www.rebelandbird.com/images/rnb_share.png?{{site.time | date: '%Y%m%d%H%M%S'}}" />
