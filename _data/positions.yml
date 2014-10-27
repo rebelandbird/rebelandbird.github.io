@@ -1,5 +1,6 @@
 - title: Visual Designer
   slug: designer
+  hidden: false
   description: |
     As a Visual Designer at Rebel & Bird, you will help us create some of the most compelling online experiences in the world.
 
@@ -16,6 +17,7 @@
 
 - title: Developer
   slug: developer
+  hidden: true
   description: |
     Being a developer at Rebel & Bird you will be part of creating some of the most innovative digital experiences online. It may be internal projects or work together with our clients.
 
@@ -31,6 +33,7 @@
 
 - title: Analyst
   slug: analyst
+  hidden: false
   description: |
     Your are a digital native that see how data can drive and feed back to product strategy, organisational change and business development. You know the digital eco-system inside out and what factors are important to grow a product.
 
