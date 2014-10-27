@@ -13,11 +13,14 @@ layout: default
     <img id="closepositions" src="/images/close_x.svg">
     <ul id="positionlist">
     {% for position in site.data.positions %}
-        <li data-position="#{{ position.slug }}"><a href="#{{ position.slug }}">{{ position.title }}</a></li>
+        {% if position.hidden == false %}
+            <li data-position="#{{ position.slug }}"><a href="#{{ position.slug }}">{{ position.title }}</a></li>
+        {% endif %}
     {% endfor %}
     </ul>
 
     {% for position in site.data.positions %}
+        {% if position.hidden == false %}
         <div class="position" id="{{ position.slug }}">
             <h2>{{ position.title }}</h2>
             {{ position.description | textilize }}
@@ -32,6 +35,7 @@ layout: default
                 <a href="mailto:{{ site.data.content.jobsemail }}?subject={{ position.title }}"><button>Apply now - {{ site.data.content.jobsemail }}</button></a>
             </div>
         </div>
+        {% endif %}
     {% endfor %}
 </section>
 
