@@ -15,6 +15,22 @@
     - "Strong conceptual thinking. Designers are expected to not just flawlessly execute teammates’ ideas but also be a part of the initial creative process."
     - "An ability to thrive in an environment with plenty of freedom and lots of responsibility."
 
+- title: Product Owner, Growth
+  slug: growthhacker
+  hidden: false
+  description: |
+    In the role as Product Owner, Growth you will be responsible to help our clients grow their products by developing product and market strategies to reach, engage and retain new users. You will work with multiple teams both internally at Rebel & Bird and externally in the client’s organisation, ranging from business development, design, engineering to marketing, sales and support. You will be the driving force to execute and deliver results, navigating at ease the cross-functional landscape needed for state-of-the-art digital product development.
+
+  requirements:
+   - "You being digital native, familiar with the eco-system and marketing forces at play for mobile and online products."
+   - "A problem solver, eagerly learning what you don’t already know no matter if it is related programming, tools or social science."
+   - "Exceptional written and verbal communication skills, always capturing learnings to spread knowledge both internally and to clients."
+   - "Prior experience with digital product development, familiarity with Lean Startup/Lean UX methods."
+   - "Data-driven, running experiments with a scientific, analytical approach to make decisions about strategy and direction."
+   - "Ability to develop deep understanding of business models, analyse markets and customer behaviour."
+   - "Technically proficient, with advanced data manipulation and visualisation skills. You can and love to set up and run tests, analyse results, using existing tools or custom developed tools, as well as writing custom scripts."
+   - "Ultimately be responsible for delivering growth, with ability to plan and manage on a strategic level and execute operationally."
+
 - title: Developer
   slug: developer
   hidden: true
