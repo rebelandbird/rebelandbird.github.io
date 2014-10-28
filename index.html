@@ -19,6 +19,10 @@ layout: default
     {% endfor %}
     </ul>
 
+    <div class="position">
+        <p>{{ site.data.content.hiring-aboutus | textilize }}</p>
+    </div>
+
     {% for position in site.data.positions %}
         {% if position.hidden == false %}
         <div class="position" id="{{ position.slug }}">
