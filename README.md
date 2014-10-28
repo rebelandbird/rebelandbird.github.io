@@ -1,7 +1,7 @@
 Rebel & Bird website
 ======================
 
-This is the source of the R&B website. Powered by [Jekyll](jekyllrb.com) and conveniently hosted using [Github Pages](https://pages.github.com/).
+This is the source of the R&B website. Powered by [Jekyll](http://jekyllrb.com) and conveniently hosted using [Github Pages](https://pages.github.com/).
 
 To update the website, simply edit the content directly here on Github and press the commit button. The site is automagically updated within seconds.
 
