@@ -1,7 +1,7 @@
 <footer>
     <ul>
         <li><a href="mailto:{{ site.data.content.email }}">{{ site.data.content.email }}</a></li>
-        <li><a href="http://maps.google.com/?daddr={{ site.data.content.adress }}">{{ site.data.content.adress }}</a></li>
-        <li>{{ site.data.content.phone }}</li>
+        <li><a href="http://maps.google.com/?daddr={{ site.data.content.adress | cgi_escape }}">{{ site.data.content.adress }}</a></li>
+        <li><a href="tel:{{ site.data.content.phone | replace: ' ', '' }}">{{ site.data.content.phone }}</a></li>
     </ul>
 </footer>
