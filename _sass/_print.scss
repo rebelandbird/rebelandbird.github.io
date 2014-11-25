@@ -1,0 +1,64 @@
+@media print {
+    header {
+        background: none;
+        color: #000;
+        height: auto;
+
+        #headerlayer {
+            display: none;
+        }
+
+        #logobox {
+            top: 0;
+            margin: 20px auto;
+        }
+
+        #logo {
+            display: none;
+        }
+
+        #printlogo {
+            display: inline-block;
+        }
+    }
+
+    footer {
+        color: #000;
+        background: none;
+    }
+
+    .hiring {
+        color: #000;
+        background: none;
+
+        .button {
+            display: none;
+        }
+    }
+
+    #positions {
+        display: block;
+
+        #closepositions {
+            display: none;
+        }
+
+        .submit {
+            margin: 0;
+
+            .button {
+                color: #000;
+                border: none;
+            }
+        }
+    }
+
+    .message {
+        color: #000;
+        background: none;
+
+        h2 {
+            margin: 0 auto;
+        }
+    }
+}

@@ -65,6 +65,11 @@ header {
     #logo {
         width: 250px;
     }
+
+    #printlogo {
+        @extend #logo;
+        display: none;
+    }
 }
 
 footer {
