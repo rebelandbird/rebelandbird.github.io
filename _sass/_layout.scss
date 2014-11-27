@@ -180,6 +180,12 @@ footer {
             margin: 60px auto;
             content: "";
         }
+
+        .uptrail {
+            color: $list-text-color;
+            margin: 10px 0;
+            font-size: 0.7em;
+        }
     }
 
     .requirements {
