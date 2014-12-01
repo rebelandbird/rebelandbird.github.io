@@ -58,7 +58,7 @@
 
 - title: Analyst
   slug: analyst
-  hidden: false
+  hidden: true
   url: https://www.uptrail.com/en/companies/rebel-bird/vacancies/29-analyst
   description: |
     Your are a digital native that see how data can drive and feed back to product strategy, organisational change and business development. You know the digital eco-system inside out and what factors are important to grow a product.
