@@ -62,6 +62,7 @@ header {
         @include dynamic-width();
     }
 
+
     #logo {
         width: 250px;
     }
@@ -70,12 +71,37 @@ header {
         @extend #logo;
         display: none;
     }
+
+    .post & {
+        height: 190px;
+
+        #logobox {
+            top: 30px;
+        }
+
+        .line {
+            margin: 10px auto;
+        }
+
+        h1 {
+            font-size: $font-size-post;
+
+            @include media-query($on-palm) {
+                font-size: $font-size-post-palm;
+            }
+        }
+    }
 }
 
 footer {
     background-color: $footer-background-color;
     color: $list-text-color;
     margin-top: 40px;
+
+    .post & {
+        margin-top: 0;
+    }
+
     @extend section;
 
     > ul {
@@ -92,6 +118,33 @@ footer {
     a,
     a:visited {
         color: $list-text-color;
+    }
+}
+
+.news {
+    font-family: 'Benton Sans Light', sans-serif;
+    font-size: $font-size;
+    @include dynamic-width();
+    margin: 0 auto;
+    width: 750px;
+    text-align: left;
+
+    > ul {
+        > li {
+            margin: 10px 0 20px 0;
+            float: none;
+        }
+    }
+
+    a,
+    a:visited {
+        color: $brand-other-color;
+    }
+
+    .excerpt,
+    .date,
+    .allarticles {
+        font-size: 0.7em;
     }
 }
 
@@ -284,6 +337,26 @@ footer {
     h3 {
         margin-top: 0px;
     }
+}
+
+.postbody {
+    @include dynamic-width();
+    margin: 0 auto;
+    width: 650px;
+    text-align: left;
+
+    h1 {
+        font-family: 'Benton Sans Light', sans-serif;
+        font-size: $font-size;
+        @include dynamic-width();
+    }
+
+    p {
+        font-family: 'Benton Sans Light', sans-serif;
+        line-height: 1.7;
+    }
+
+    text-align: left;
 }
 
 .title {

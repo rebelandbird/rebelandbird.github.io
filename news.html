@@ -1,0 +1,12 @@
+---
+layout: post
+---
+
+<ul class="news">
+  {% for post in site.posts %}
+    <li>
+        <span class="date">{{ post.date | date: "%B %e, %Y" }}</span><br>
+        <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
