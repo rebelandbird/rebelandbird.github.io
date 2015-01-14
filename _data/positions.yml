@@ -40,6 +40,24 @@
    - "Technically proficient, with advanced data manipulation and visualisation skills. You can and love to set up and run tests, analyse results, using existing tools or custom developed tools, as well as writing custom scripts."
    - "Ultimately be responsible for delivering growth, with ability to plan and manage on a strategic level and execute operationally."
 
+- title: Frontend Developer
+  slug: frontenddeveloper
+  hidden: false
+  description: |
+    Being a developer at Rebel & Bird you will be part of creating some of the most innovative digital experiences online. It may be internal projects or work together with our clients.
+
+    You are a versatile developer that know how to apply the right tools for the right job. You consider yourself a master of many trades but fully understand, and enjoy, all it takes to do successfull frontend development. If you're also into mobile and backend stuff, that is a definitive plus! What you don’t know you see as a great opportunity to dig in and learn about.
+
+    You enjoy being part of building a company and be the force to create opportunities that makes you thrive.
+
+  requirements:
+   - "Experience of modern web development with advanced JavaScript, HTML and CSS. Including best practices ranging from tool pipeline to architecture."
+   - "Know-how of full-stack architecture and not only what makes it tick, but scale."
+   - "Being passionate about development and what you create."
+   - "The ability to both work autonomously and as part of a team."
+   - "An ability to thrive in an environment with plenty of freedom and lots of responsibility."
+   - "MSc/BSc in Computer Science/Engineering or equivalent"
+
 - title: Developer
   slug: developer
   hidden: true
@@ -48,6 +66,8 @@
 
     You are a versatile developer that know how to apply the right tools for the right job. You consider yourself as a full-stack developer and feel fluent moving between the backend and the frontend, web or mobile. What you don’t know you see as a great opportunity to dig in to and learn about.
 
+    You enjoy being part of building a company and be the force to create opportunities that makes you thrive.
+
   requirements:
    - "Experience of modern web development with advanced JavaScript, HTML and CSS. Including best practices ranging from tool pipeline to architecture."
    - "Know-how of how to make a backend not only tick, but scale."
@@ -55,6 +75,7 @@
    - "Being passionate about development and what you create."
    - "The ability to both work autonomously and as part of a team."
    - "An ability to thrive in an environment with plenty of freedom and lots of responsibility."
+   - "MSc/BSc in Computer Science/Engineering or equivalent"
 
 - title: Analyst
   slug: analyst
@@ -64,6 +85,8 @@
     Your are a digital native that see how data can drive and feed back to product strategy, organisational change and business development. You know the digital eco-system inside out and what factors are important to grow a product.
 
     You got the tools and skills to get the data you want, mash it up and present it. Your comfort zone shall be significantly larger than iWork and you are probably no stranger to the command-line.
+
+    You enjoy being part of building a company and be the force to create opportunities that makes you thrive.
 
   requirements:
     - "Love for metrics; LTV, CTR, CTA, KPI, funnels, cohort analysis, conversion, and more is just a start."
