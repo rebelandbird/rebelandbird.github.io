@@ -5,17 +5,24 @@
 
     var positions = document.getElementById("positions");
     if (positions) {
-        document.getElementById("openpositions").addEventListener("click", function(e) {
-            e.preventDefault();
-            e.stopPropagation();
+        var openPositions = document.getElementById("openpositions");
+        var closePositions = document.getElementById("closepositions");
 
-            Velocity(positions, "fadeIn", { duration: 200 });
-            Velocity(positions, "scroll", { duration: 300 });
-        });
+        if (openPositions) {
+            openPositions.addEventListener("click", function(e) {
+                e.preventDefault();
+                e.stopPropagation();
 
-        document.getElementById("closepositions").addEventListener("click", function() {
-            Velocity(positions, "fadeOut", { duration: 200 });
-        });
+                Velocity(positions, "fadeIn", { duration: 200 });
+                Velocity(positions, "scroll", { duration: 300 });
+            });
+        }
+
+        if (closePositions) {
+            closePositions.addEventListener("click", function() {
+                Velocity(positions, "fadeOut", { duration: 200 });
+            });
+        }
 
         // open if target set to position, show that section
         if (document.location.hash != "") {
