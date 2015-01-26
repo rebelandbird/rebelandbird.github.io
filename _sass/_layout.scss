@@ -24,41 +24,30 @@ section {
 
 header {
     background-color: $header-background-color;
-    background-image: url(/images/herobkg.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    position: relative;
-
     color: $brand-text-color;
-    height: 760px;
-    overflow: hidden;
 
-    #headerlayer {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-    }
 
     h1 {
         font-family: 'Benton Sans Light', sans-serif;
-        font-size: $font-size;
         margin: 0;
+        font-size: $font-size-post;
+        @include media-query($on-palm) {
+            font-size: $font-size-post-palm;
+        }
     }
 
     .line {
         width: 100%;
         height: 1px;
         background-color: $line-color;
-        margin: 30px auto;
+        margin: 10px auto;
         opacity: 0.2;
     }
 
     #logobox {
-        position: relative;
-        top: 250px;
+        top: 30px;
         margin: 0 auto;
+        padding: 60px 0;
         @include dynamic-width();
     }
 
@@ -70,26 +59,6 @@ header {
     #printlogo {
         @extend #logo;
         display: none;
-    }
-
-    .post & {
-        height: 190px;
-
-        #logobox {
-            top: 30px;
-        }
-
-        .line {
-            margin: 10px auto;
-        }
-
-        h1 {
-            font-size: $font-size-post;
-
-            @include media-query($on-palm) {
-                font-size: $font-size-post-palm;
-            }
-        }
     }
 }
 
@@ -364,13 +333,6 @@ footer {
     margin: $spacing-unit 0;
     letter-spacing: 1px;
     font-size: 0.8em;
-}
-
-#headerlayer {
-    background-color: rgba(35, 35, 35, 0.65);
-    -webkit-animation: thefade 1.5s ease;
-    -moz-animation: thefade 1.5s ease;
-    animation: thefade 1.5s ease;
 }
 
 #logobox {
