@@ -18,56 +18,9 @@ layout: default
 {% if site.data.content.hiring %}
 <section class="hiring">
     <h2>{{ site.data.content.hiring }}</h2>
-    <a class="button" href="#positions" id="openpositions">{{ site.data.content.hiring-button }}</a>
+    <a class="button" href="/careers">{{ site.data.content.hiring-button }}</a>
 </section>
 {% endif %}
-
-<section id="positions">
-    <img id="closepositions" src="/images/close_x.svg" alt="Close">
-    <ul id="positionlist">
-    {% for position in site.data.positions %}
-        {% if position.hidden == false %}
-            <li data-position="#{{ position.slug }}"><a href="#{{ position.slug }}">{{ position.title }}</a></li>
-        {% endif %}
-    {% endfor %}
-    </ul>
-
-    <div class="position">
-        {{ site.data.content.hiring-aboutus | textilize }}
-    </div>
-
-    <div class="instagram">
-        <p>Wonder how life at Rebel & Bird is? Check out our Instagram!</p>
-
-        <a href="http://instagram.com/rebelandbird?ref=badge" title="Rebel & Bird Instagram" class="ig-b- ig-b-48">
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="48" height="48" viewBox="0 0 48 48" xml:space="preserve" enable-background="new 0 0 48 48"><path fill="#f57f1f" d="M5.6 13c-0.6 0-1-0.4-1-1V3c0-0.6 0.4-1 1-1s1 0.4 1 1v9C6.6 12.6 6.1 13 5.6 13zM9 13c-0.6 0-1-0.4-1-1V2.3c0-0.6 0.4-1 1-1s1 0.4 1 1V12C10 12.6 9.5 13 9 13zM12.3 13c-0.6 0-1-0.4-1-1V2.3c0-0.6 0.4-1 1-1s1 0.4 1 1V12C13.3 12.6 12.9 13 12.3 13zM37.3 48H11.9C4.3 48 0 44 0 37.1V12.1C0 4.9 4.3 0 10.6 0h27.6C42.9 0 48 4.5 48 11.8v25.1C48 43.1 43.3 48 37.3 48zM10.6 2C4.3 2 2 7.5 2 12.1v24.9C2 44.4 7.4 46 11.9 46h25.4C42.3 46 46 42.1 46 36.9V11.8C46 5.8 42 2 38.2 2H10.6zM24 15.3c-4.2 0-7.7 3.4-7.7 7.7s3.4 7.7 7.7 7.7 7.7-3.4 7.7-7.7S28.2 15.3 24 15.3zM24 26.8c-2.1 0-3.8-1.7-3.8-3.8s1.7-3.8 3.8-3.8 3.8 1.7 3.8 3.8S26.1 26.8 24 26.8zM24 35.1c-6.7 0-12.2-5.5-12.2-12.2S17.3 10.8 24 10.8s12.2 5.5 12.2 12.2S30.7 35.1 24 35.1zM24 12.8c-5.6 0-10.2 4.6-10.2 10.2s4.6 10.2 10.2 10.2 10.2-4.6 10.2-10.2S29.6 12.8 24 12.8z"/><rect fill="#f57f1f" x="33" y="14.9" width="14" height="2.2"/><rect fill="#f57f1f" x="1.5" y="14.9" width="13.3" height="2.1"/><path fill="#f57f1f" d="M41.3 10.1c0 1.2-1 2.2-2.2 2.2h-3.3c-1.2 0-2.2-1-2.2-2.2V6.9c0-1.2 1-2.2 2.2-2.2h3.3c1.2 0 2.2 1 2.2 2.2V10.1z"/></svg>
-        </a>
-    </div>
-
-    {% for position in site.data.positions %}
-        {% if position.hidden == false %}
-        <div class="position" id="{{ position.slug }}">
-            <h2>{{ position.title }}</h2>
-            {{ position.description | textilize }}
-
-            <div class="title">{{ site.data.content.requirements-title }}</div>
-            <ul class="requirements">
-            {% for requirement in position.requirements %}
-                <li><span class="requirement">{{ requirement }}</span></li>
-            {% endfor %}
-            </ul>
-            <div class="submit">
-                {% if position.url %}
-                    <a class="button" href="{{ position.url }}">Apply now</a>
-                    <div class="uptrail">We're using Uptrail - apply in just 30 seconds, even on mobile!</div>
-                {% else %}
-                    <a class="button" href="mailto:{{ site.data.content.jobsemail }}?subject={{ position.title | cgi_escape }}">Apply now - {{ site.data.content.jobsemail }}</a>
-                {% endif %}
-            </div>
-        </div>
-        {% endif %}
-    {% endfor %}
-</section>
 
 <section class="wedo">
     <h3 class="title">{{ site.data.content.offer-title }}</h3>

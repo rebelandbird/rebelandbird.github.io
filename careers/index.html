@@ -1,18 +1,18 @@
 ---
 layout: about
+title: Working at Rebel & Bird
 ---
 
-<section class="postbody">
-
-    <h1>Working at Rebel & Bird</h1>
-
-    <h2>Who we are</h2>
+<section class="position" id="careersintro">
 
     {{ site.data.content.hiring-aboutus | textilize }}
 
 </section>
 
+<a class="button" href="#positions" id="openpositions">{{ site.data.content.hiring-button }}</a>
+
 <section class="instagram">
+    <div class="sectiontitle">Life at R&B on <a href="https://instagram.com/rebelandbird/">Instagram</a>!</div>
 
     <script type="text/javascript" src="/js/instafeed.min.js"></script>
     <script type="text/javascript">
@@ -31,7 +31,7 @@ layout: about
                 html.push('<div class="instacol">');
                 for (var i = 0; i < len; i++) {
                     html.push(
-                        '<a href="' + result.data[i].images.thumbnail.url + '"><img src="' + result.data[i].images.thumbnail.url + '"></a>'
+                        '<a href="' + result.data[i].link + '"><img src="' + result.data[i].images.thumbnail.url + '" title="' + result.data[i].caption.text + '"></a>'
                     );
 
                     if ((i + 1) % 2 == 0) {
@@ -85,7 +85,7 @@ layout: about
 
 </section>
 -->
-<h2>Open positions</h2>
+<h2 class="sectiontitle">Open positions</h2>
 
 <section id="positions" style="display: block">
     <ul id="positionlist">

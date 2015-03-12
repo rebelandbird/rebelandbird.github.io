@@ -140,7 +140,10 @@ footer {
         @include dynamic-width();
         font-size: 28px;
     }
+}
 
+.hiring,
+.about {
     .button {
         font-family: 'Benton Sans', sans-serif;
         border: 1px solid $line-color;
@@ -150,10 +153,10 @@ footer {
         text-transform: uppercase;
         text-decoration: none;
         letter-spacing: 1px;
-        margin-top: 20px;
-        font-size: 0.5em;
+        font-size: 14px;
         cursor: pointer;
         display: inline-block;
+        margin: 20px auto 0 auto;
 
         &:focus {
             background-color: $brand-text-color;
@@ -162,12 +165,20 @@ footer {
     }
 }
 
-#positions {
-    display: none;
+
+.position {
+    font-size: 1.1em;
     text-align: left;
-    @include dynamic-width();
-    margin: 0 auto;
-    position: relative;
+
+    &:last-child:after,
+    &:before {
+        display: block;
+
+        height: 1px;
+        background-color: $line-color;
+        margin: 60px auto;
+        content: "";
+    }
 
     h2 {
         text-align: center;
@@ -175,6 +186,26 @@ footer {
         font-size: 1.8em;
         margin: 20px 0 40px 0;
     }
+
+    .uptrail {
+        color: $list-text-color;
+        margin: 10px 0;
+        font-size: 0.7em;
+    }
+}
+
+#careersintro {
+    &:before {
+        display: none;
+    }
+}
+
+#positions {
+    display: none;
+
+    @include dynamic-width();
+    margin: 0 auto;
+    position: relative;
 
     #closepositions {
         right: 50px;
@@ -201,25 +232,6 @@ footer {
             }
         }
         margin-bottom: 40px;
-    }
-
-    .position {
-        font-size: 1.1em;
-        &:last-child:after,
-        &:before {
-            display: block;
-
-            height: 1px;
-            background-color: $line-color;
-            margin: 60px auto;
-            content: "";
-        }
-
-        .uptrail {
-            color: $list-text-color;
-            margin: 10px 0;
-            font-size: 0.7em;
-        }
     }
 
     .requirements {
@@ -368,25 +380,112 @@ footer {
     100% { opacity: 1; }
 }
 
+.sectiontitle {
+    font-family: 'Benton Sans Light', sans-serif;
+    font-size: 28px;
+}
+
 .instagram {
-    margin-top: 50px;
+    margin: 50px 0;
     text-align: center;
+    background-color: $brand-color;
+
+    .sectiontitle {
+        color: #fff;
+        margin-bottom: 20px;
+
+        a {
+            text-decoration: underline;
+            color: #fff;
+
+        }
+    }
+
+    #instacontainer {
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
 }
 
 #instafeed {
     margin: 0 auto;
     display: inline-block;
+    min-width: 1020px;
+    overflow: hidden;
+
+    @include media-query($on-palm) {
+        min-width: inherit;
+        text-align: center;
+    }
+
     @extend %clearfix;
 
     .instacol {
         float: left;
-        width: 150px;
-
-        margin: 0 10px;
+        width: 154px;
+        margin: 0 8px;
 
         img {
-            margin: 10px;
+            margin: 8px 0;
+            border: 2px solid #fff;
         }
 
+        &:before {
+            content: ' ';
+            width: 100%;
+            display: block;
+        }
+
+        &:nth-child(1):before {
+            height: 40px;
+        }
+
+        &:nth-child(2):before {
+            height: 20px;
+        }
+
+        &:nth-child(3):before {
+            height: 0px;
+        }
+
+        &:nth-child(4):before {
+            height: 20px;
+        }
+
+        &:nth-child(5):before {
+            height: 40px;
+        }
+
+        &:nth-child(6):before {
+            height: 20px;
+        }
+
+        @include media-query($on-palm) {
+            display: none;
+            float: none;
+            margin: 0 auto;
+
+            &:before {
+                display: none;
+            }
+
+            &:nth-child(1) {
+                display: block;
+            }
+
+            &:nth-child(2) {
+                display: block;
+            }
+        }
     }
+}
+
+.about {
+    h1 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.8em;
+        margin: 80px 0 0px 0;
+    }
+
 }
