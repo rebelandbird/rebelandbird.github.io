@@ -12,7 +12,7 @@ section {
         padding: 50px 15px;
     }
 
-    > ul {
+    .gridlist {
         list-style-type: none;
         margin-left: 0;
 
@@ -26,6 +26,13 @@ header {
     background-color: $header-background-color;
     color: $brand-text-color;
 
+    .about & {
+        background-image: url(/images/herobkg.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+    }
 
     h1 {
         font-family: 'Benton Sans Light', sans-serif;
@@ -49,6 +56,11 @@ header {
         margin: 0 auto;
         padding: 60px 0;
         @include dynamic-width();
+
+        .about & {
+            padding: 150px 0;
+            text-shadow: 1px 1px 5px #222;
+        }
     }
 
 
@@ -359,4 +371,22 @@ footer {
 .instagram {
     margin-top: 50px;
     text-align: center;
+}
+
+#instafeed {
+    margin: 0 auto;
+    display: inline-block;
+    @extend %clearfix;
+
+    .instacol {
+        float: left;
+        width: 150px;
+
+        margin: 0 10px;
+
+        img {
+            margin: 10px;
+        }
+
+    }
 }
