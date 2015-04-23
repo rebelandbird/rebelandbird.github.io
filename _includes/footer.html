@@ -10,18 +10,15 @@
 <script type="text/javascript" src="/js/rebel.js"></script>
 <script>
   // Mixpanel
-  mixpanel.track('Page Viewed', {
-      'page name' : document.title,
-      'url' : window.location.pathname
-  });
+  if (typeof mixpanel != 'undefined') {
+    mixpanel.track_links(".track", "Outgoing Link", function(element) {
+      var data = {
+        'page name': document.title,
+        'page url': window.location.pathname,
+        'link': element.getAttribute("href")
+      };
 
-  mixpanel.track_links(".track", "Outgoing Link", function(element) {
-    var data = {
-      'page name': document.title,
-      'page url': window.location.pathname,
-      'link': element.getAttribute("href")
-    };
-
-    return data;
-  });
+      return data;
+    });
+  }
 </script>
