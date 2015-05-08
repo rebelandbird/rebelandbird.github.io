@@ -110,7 +110,7 @@ title: Working at Rebel & Bird
             </ul>
             <div class="submit">
                 {% if position.url %}
-                    <a class="button track" href="{{ position.url }}">Apply now</a>
+                    <a class="button track" href="{{ position.url }}" id="{{ position.slug }}-link">Apply now</a>
                     <div class="uptrail">We're using Uptrail - apply in just 30 seconds, even on mobile!</div>
                 {% else %}
                     <a class="button track" href="mailto:{{ site.data.content.jobsemail }}?subject={{ position.title | cgi_escape }}">Apply now - {{ site.data.content.jobsemail }}</a>
