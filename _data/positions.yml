@@ -1,102 +1,68 @@
-- title: Senior Interactive Designer
+- title: Passionerad front end-utvecklare
+  slug: frontend
+  hidden: false
+  url: https://www.uptrail.com/sv/companies/rebel-bird/vacancies/267-passionerad-front-end-utvecklare?utm_source=website
+  description: |
+    Som utvecklare på Rebel & Bird är du en del av att ta fram de smartaste tekniska lösningarna för våra kunder och deras användare.
+
+  requirements:
+   - Älskar det du gör.
+   - Har erfarenhet av modern gränssnittsutveckling med avancerad JavaScript, HTML och CSS.
+   - Är ajour med både best practices såväl som ramverk och verktyg.
+   - Har en relevant utbildning, gärna från en teknisk högskola.
+   - Ser helhetsbilden och förstår att vissa uppgifter kan vara viktiga ur ett affärssyfte snarare än att vara tekniskt jätteutmanande.
+   - Gillar tanken på att jobba med olika typer av kunder, vi arbetar med allt från startups till försäkringsbolag.
+   - Jobbar bra i team. Du måste kunna vara lyhörd för andras idéer såväl som argumentera för dina egna.
+   - Tidigare erfarenhet av mobilutveckling är en bonus.
+   - Har en passion som imponerar på oss!
+
+
+- title: Full stack-utvecklare som kan ta sig an det mesta
+  slug: fullstack
+  hidden: false
+  url: https://www.uptrail.com/sv/companies/rebel-bird/vacancies/269-full-stack-utvecklare-som-kan-ta-sig-an-det-mesta?utm_source=website
+  description: |
+    Som utvecklare på Rebel & Bird är du en del av att ta fram de smartaste tekniska lösningarna för våra kunder och deras användare.
+
+  requirements:
+   - Har erfarenhet från att bygga lösningar från början till slut och kan röra dig mellan arkitektur, back end och front end.
+   - Ser helhetsbilden och förstår att vissa uppgifter kan vara viktiga ur ett affärssyfte snarare än att vara tekniskt jätteutmanande.
+   - Är van vid olika typer av kunder, vi arbetar med allt från startups till försäkringsbolag, och kan röra dig snabbt mellan världar som är olika när det gäller både teknik och affär.
+   - Har en relevant utbildning, gärna från KTH eller liknande.
+   - Jobbar bra i team. Du måste kunna vara lyhörd för andras idéer såväl som argumentera för dina egna.
+   - Trivs med mycket frihet, och mycket ansvar.
+   - Bör kunna vara delaktig i att skapa affärsmöjligheter.
+   - Har bredden för att kunna ta dig an det mesta utifrån ett tekniskt perspektiv, oavsett både plattform och språk.
+   - Tidigare erfarenhet av mobilutveckling är en bonus.
+   - Har en passion och ett CV som imponerar på oss!
+
+
+- title: Ny designer som vill växa
   slug: designer
   hidden: false
-  url: https://www.uptrail.com/en/companies/rebel-bird/vacancies/28-senior-interactive-designer?utm_source=website
+  url: https://www.uptrail.com/sv/companies/rebel-bird/vacancies/270-ny-designer-som-vill-vaxa
   description: |
-    As an Interactive Designer at Rebel & Bird, you will help us create some of the most compelling online experiences in the world.
-
-    Our clients are as varied as can be, including e-health, insurance, media and retail. As an Interactive Designer, you will need to be able to move from one project to the next without missing a beat.
-
-    We act as growth partner to our clients, meaning our focus is on improving business metrics in everything we do. You will love it here if you are multifaceted and collaborative, and have a sincere passion for turning complex requirements into beautiful applications and web sites. You should also enjoy creating data driven global marketing campaigns.
-
-    This is an opportunity to define and reinvent the digital space, and a passion for doing just that is critical. We want people who believe in their skills and their perspective. You are an experienced designer, ready for the challenge of being a design owner and strategic partner to our clients.  You know how to convert user, business, and market insights into design strategy. You are a master at crafting beautiful products. You know that a great design process involves the team and organization, and you are apt at cranking out prototypes to showcase ideas.
+    Som designer på Rebel & Bird är du en del av att ta fram fantastiska upplevelser för våra kunder och deras användare.
 
   requirements:
-   - "5+ years of interactive experience including strong examples of designing interactive services. Preferrably also agency experience."
-   - "Portfolio that shows your design skills and also your communication abilities by describing your impact and what you learned for each project."
-   - "Strong conceptual thinking and the ability to move from creative direction through art direction down to beautiful user experiences."
-   - "You do design every day. You often take ownership of the strategy and your colleagues see you as a natural mentor."
-   - "A solid understanding of designing intuitive service functionality, interaction design/user interfaces and information architecture. You also have a love of the craft and pride in pixel perfection."
-   - "Outstanding communication, presentation and organizational skills."
-   - "An ability to thrive in an environment with plenty of freedom and lots of responsibility."
-   - "Mobile experience is a strong plus."
-   - "The position is full-time, on-location in Stockholm, Sweden."
+   - Har designkänsla i varje fiber av din kropp och förstår hantverket till fullo.
+   - Gillar att omvandla komplexa krav till vackra lösningar och förstår hur du bäst tar projekt från insikter till passande design.
+   - Gillar att jobba i team, men vågar också stå på egna ben.
+   - Kan komma direkt från skolan eller ha jobbat i branschen i några år.
+   - Har en portfolio och framförallt en passion som imponerar på oss!
 
-- title: Product Owner, Growth
-  slug: growthhacker
-  hidden: true
-  url: https://www.uptrail.com/en/companies/rebel-bird/vacancies/27-product-owner-growth?utm_source=website
-  description: |
-    In the role as Product Owner, Growth you will be responsible to help our clients grow their products by developing product and market strategies to reach, engage and retain new users. You will work with multiple teams both internally at Rebel & Bird and externally in the client’s organisation, ranging from business development, design, engineering to marketing, sales and support. You will be the driving force to execute and deliver results, navigating at ease the cross-functional landscape needed for state-of-the-art digital product development.
-
-  requirements:
-   - "5+ years of relevant experience from digital service development"
-   - "Experience as manager/director. Entrepreneurial background is a strong plus."
-   - "You being digital native, familiar with the eco-system and marketing forces at play for mobile and online products."
-   - "A problem solver, eagerly learning what you don’t already know no matter if it is related programming, tools or social science."
-   - "Exceptional written and verbal communication skills, always capturing learnings to spread knowledge both internally and to clients."
-   - "Familiarity with Lean Startup/Lean UX methods."
-   - "Data-driven, running experiments with a scientific, analytical approach to make decisions about strategy and direction."
-   - "Ability to develop deep understanding of business models, analyse markets and customer behaviour."
-   - "Technically proficient, with advanced data manipulation and visualisation skills. You can and love to set up and run tests, analyse results, using existing tools or custom developed tools, as well as writing custom scripts."
-   - "Ultimately be responsible for delivering growth, with ability to plan and manage on a strategic level and execute operationally."
-   - "The position is full-time, on-location in Stockholm, Sweden."
-
-- title: Frontend Developer
-  slug: frontenddeveloper
+- title: Erfaren designer redo för nästa steg
+  slug: erfarendesigner
   hidden: false
-  url: https://www.uptrail.com/sv/companies/rebel-bird/vacancies/98-frontend-developer?utm_source=website
+  url: https://www.uptrail.com/sv/companies/rebel-bird/vacancies/266-erfaren-designer-redo-for-nasta-steg
   description: |
-    Being a developer at Rebel & Bird you will be part of creating some of the most innovative digital experiences online. It may be internal projects or work together with our clients.
-
-    You are a versatile developer that know how to apply the right tools for the right job. You consider yourself a master of many trades but fully understand, and enjoy, all it takes to do successful frontend development. If you're also into mobile and backend stuff, that is a definitive plus! What you don’t know you see as a great opportunity to dig in and learn about.
-
-    You enjoy being part of building a company and be the force to create opportunities that makes you thrive.
+    Som designer på Rebel & Bird är du en del av att ta fram fantastiska upplevelser för våra kunder och deras användare.
 
   requirements:
-   - "Experience of modern web development with advanced JavaScript, HTML and CSS. Including best practices ranging from tool pipeline to architecture."
-   - "Know-how of full-stack architecture and not only what makes it tick, but scale."
-   - "Being passionate about development and what you create."
-   - "The ability to both work autonomously and as part of a team."
-   - "An ability to thrive in an environment with plenty of freedom and lots of responsibility."
-   - "MSc/BSc in Computer Science/Engineering or equivalent"
-   - "The position is full-time, on-location in Stockholm, Sweden."
-
-- title: Developer
-  slug: developer
-  hidden: true
-  description: |
-    Being a developer at Rebel & Bird you will be part of creating some of the most innovative digital experiences online. It may be internal projects or work together with our clients.
-
-    You are a versatile developer that know how to apply the right tools for the right job. You consider yourself as a full-stack developer and feel fluent moving between the backend and the frontend, web or mobile. What you don’t know you see as a great opportunity to dig in to and learn about.
-
-    You enjoy being part of building a company and be the force to create opportunities that makes you thrive.
-
-  requirements:
-   - "Experience of modern web development with advanced JavaScript, HTML and CSS. Including best practices ranging from tool pipeline to architecture."
-   - "Know-how of how to make a backend not only tick, but scale."
-   - "Experience developing on iOS and/or Android a definitive plus!"
-   - "Being passionate about development and what you create."
-   - "The ability to both work autonomously and as part of a team."
-   - "An ability to thrive in an environment with plenty of freedom and lots of responsibility."
-   - "MSc/BSc in Computer Science/Engineering or equivalent"
-   - "The position is full-time, on-location in Stockholm, Sweden."
-
-- title: Analyst
-  slug: analyst
-  hidden: true
-  url: https://www.uptrail.com/en/companies/rebel-bird/vacancies/29-analyst?utm_source=website
-  description: |
-    Your are a digital native that see how data can drive and feed back to product strategy, organisational change and business development. You know the digital eco-system inside out and what factors are important to grow a product.
-
-    You got the tools and skills to get the data you want, mash it up and present it. Your comfort zone shall be significantly larger than iWork and you are probably no stranger to the command-line.
-
-    You enjoy being part of building a company and be the force to create opportunities that makes you thrive.
-
-  requirements:
-    - "Love for metrics; LTV, CTR, CTA, KPI, funnels, cohort analysis, conversion, and more is just a start."
-    - "Know-how of online analytics tools such as Mixpanel, Google Analytics, AppsFlyer, Optimizely, etc."
-    - "Insight into how to apply metrics to the organisation, product and business and how leverage it."
-    - "Being comfortable digging into APIs or parsing logs to tailor data to your needs."
-    - "Presentation skills of your analysis, statistics and data to effectively feedback to stakeholders."
-    - "The position is full-time, on-location in Stockholm, Sweden."
+   - Kan hantverket design ända ut i fingerspetsarna.
+   - Är van vid olika typer av kunder, vi arbetar med allt från start ups till försäkringsbolag, och kan röra dig snabbt mellan dessa olika världar.
+   - Gillar att omvandla komplexa krav till vackra lösningar och förstår hur du bäst tar projekt från insikter till passande design.
+   - Har minst fem års erfarenhet av relevant jobb, gärna med något år inom byråvärlden.
+   - Jobbar bra i team. Du måste kunna vara lyhörd för andras idéer såväl som argumentera för dina egna.
+   - Trivs att jobba med den breda penseln i form av koncept och designstrategi, men också på pixelnivå.
+   - Har en portfolio och en passion som imponerar på oss!
