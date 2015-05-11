@@ -2,16 +2,6 @@
 description: >
   Blending digital product development with market communication. Making companies grow - faster.
 
-# Hiring
-hiring-button: Open positions
-hiring: We are hiring!
-hiring-aboutus: |
-  We are a Stockholm based multi-disciplined agency working with *accelerated growth* (some say growth hacking). We are at the digital forefront working extensively with the growth team at *Spotify*, experimenting, learning and improving the methods for *sustainable growth* of online services. We also *apply our know-how* in traditional sectors like insurance and health-care, working with Förenade Liv and Stockholms läns landsting.
-
-  You will be a *critical part* of a growing, evolving company. We give you the freedom and opportunities to grow and and take on ever new challenges in a *supportive* community of peers. With the freedom comes the *power* and responsibility to push yourself to reach your goals and take an active role in *shaping the future* you want. If you like that, *you'll love working with us*!
-
-requirements-title: We want to see
-
 # What we do
 offer-title: We do
 offer:
@@ -55,3 +45,23 @@ phone: +46 707 320 654
 
 # Open positions (for actual positions, see separate positions.yml file)
 jobsemail: jobs@rebelandbird.com
+
+# Careers
+hiring-button: Open positions
+hiring: We are hiring!
+hiring-aboutus: |
+  Vilka är vi?
+
+hiring-aboutus-list:
+  - Genom knivskarpa insikter och analyser, fantastisk design och de smartaste tekniska lösningarna hjälper vi företag att växa, och att behålla sina kunder. Det är sånt vi brinner för!
+  - Vi gillar hack och använder dem lika gärna för att uppnå bra resultat i våra projekt som för att kontorslampan ska börja blinka när vi får en ny följare på Instagram. Inget gör vår utvecklingschef så glad som ett nytt api som går att koppla till Slack.
+  - Har fina skrivbord, men de flesta hänger ändå mest i soffan.
+  - Är (idag) en liten byrå med stora kunder, till exempel Spotify, Telia, Omni och Förenade liv.
+  - Kommer flytta till nya fräscha lokaler i innerstan under året. Just nu huserar vi på Sveavägen.
+  - Låter det som något för dig? Hör av dig till oss nu!
+
+openpositions: Lediga tjänster
+applynow: Ansök nu
+uptrailpromo: Vi använder Uptrail - ansök på 30 sekunder, även med mobilen!
+instagram: R&amp;B på <a href="https://instagram.com/rebelandbird/" class="track">Instagram</a>!
+requirements-title: Vi ser gärna att du

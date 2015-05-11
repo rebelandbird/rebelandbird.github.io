@@ -1,18 +1,24 @@
 ---
 layout: about
-title: Working at Rebel & Bird
+title: Jobba hos Rebel & Bird
 ---
 
 <section class="position" id="careersintro">
-
     {{ site.data.content.hiring-aboutus | textilize }}
 
+    {% if site.data.content.hiring-aboutus-list %}
+        <ul class="weare">
+        {% for item in site.data.content.hiring-aboutus-list %}
+            <li><span>{{ item }}</span></li>
+        {% endfor %}
+        </ul>
+    {% endif %}
 </section>
 
-<a class="button" href="#positions" id="openpositions">{{ site.data.content.hiring-button }}</a>
+<a class="button" href="#positions" id="openpositions">{{ site.data.content.openpositions }}</a>
 
 <section class="instagram">
-    <div class="sectiontitle">Life at R&amp;B on <a href="https://instagram.com/rebelandbird/" class="track">Instagram</a>!</div>
+    <div class="sectiontitle">{{ site.data.content.instagram }}</div>
 
     <script type="text/javascript" src="/js/instafeed.min.js"></script>
     <script type="text/javascript">
@@ -53,38 +59,8 @@ title: Working at Rebel & Bird
     </div>
 
 </section>
-<!--
-<section class="postbody">
 
-    <h2>Mission</h2>
-
-    <p>Be the leader of growth hacking!</p>
-
-    <h2>Perks</h2>
-
-    <ul>
-        <li>Konkurrenskraftig lön</li>
-        <li>Riktigt bra tjänstepension</li>
-        <li>Grymt kompetensutvecklingsbidrag</li>
-        <li>Topp olycklsfall/sjukdom/livföräkringspaket</li>
-        <li>Privat vårdförsäkring</li>
-        <li>Betald dator och telefon med abonnemang</li>
-    </ul>
-
-    <h2>Who we are looking for</h2>
-
-    <ul>
-        <li>P - <span class="pandafirst">P</span>assionate</li>
-        <li>A - <span class="pandafirst">A</span>mbitious</li>
-        <li>N - <span class="pandafirst">N</span>ative digital</li>
-        <li>D - <span class="pandafirst">D</span>ecent human being</li>
-        <li>A - <span class="pandafirst">A</span>ll around</li>
-        <li>S - <span class="pandafirst">S</span>alesmanship</li>
-    </ul>
-
-</section>
--->
-<h2 class="sectiontitle">Open positions</h2>
+<h2 class="sectiontitle">{{ site.data.content.openpositions }}</h2>
 
 <section id="positions" style="display: block">
     <ul id="positionlist">
@@ -109,10 +85,10 @@ title: Working at Rebel & Bird
             </ul>
             <div class="submit">
                 {% if position.url %}
-                    <a class="button track" href="{{ position.url }}" id="{{ position.slug }}-link">Apply now</a>
-                    <div class="uptrail">We're using Uptrail - apply in just 30 seconds, even on mobile!</div>
+                    <a class="button track" href="{{ position.url }}" id="{{ position.slug }}-link">{{ site.data.content.applynow }}</a>
+                    <div class="uptrail">{{ site.data.content.uptrailpromo }}</div>
                 {% else %}
-                    <a class="button track" href="mailto:{{ site.data.content.jobsemail }}?subject={{ position.title | cgi_escape }}">Apply now - {{ site.data.content.jobsemail }}</a>
+                    <a class="button track" href="mailto:{{ site.data.content.jobsemail }}?subject={{ position.title | cgi_escape }}">{{ site.data.content.applynow }} - {{ site.data.content.jobsemail }}</a>
                 {% endif %}
             </div>
         </div>

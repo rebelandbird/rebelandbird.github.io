@@ -192,6 +192,18 @@ footer {
         margin: 10px 0;
         font-size: 0.7em;
     }
+
+    .weare {
+        margin-left: 25px;
+        > li {
+            float: none;
+            list-style-type: circle;
+            color: $brand-other-color;
+            span {
+                color: $text-color;
+            }
+        }
+    }
 }
 
 #careersintro {
