@@ -1,42 +1,44 @@
 # Hero
 description: >
-  Blending digital product development with market communication. Making companies grow - faster.
+  kombinerar digital produktutveckling med marknadskommunikation. 
+
+Vi får företag att växa - fortare. Våra kunder,  når fler individer, har mer engagerade användare och fler betalande kunder. 
 
 # What we do
-offer-title: We do
+offer-title: Vi jobbar med
 offer:
- - title: Analytics and Strategy
+ - title: Analys & strategi
    image: pic_strategy.svg
    list:
-     - Business development
+     - Affärsutveckling
      - Data mining
-     - Consumer insights
+     - Kundinsikter
 
- - title: Product Innovation
+ - title: Produktinnovation
    image: pic_inno.svg
    list:
-    - Concept development
-    - Optimization
-    - Ideation
+    - Konceptutveckling
+    - Optimering
+    - Idégenerering
 
- - title: Development
+ - title: Utveckling
    image: pic_dev.svg
    list:
-     - Full stack development
+     - Full stack-utveckling
      - Rapid prototyping
-     - Architecture
+     - Arkitektur
 
  - title: Design
    image: pic_design.svg
    list:
     - Branding
-    - Interaction design
-    - Visual design
+    - Interaktionsdesign & UX
+    - Visuell design
 
 # Message
-message: We give our clients more reach, more engaged users and more paying customers - faster.
+message: Vi får företag att växa - fortare.  
 
-clients-title: Clients include
+clients-title: Exempel på kunder
 
 # Contact
 email: hello@rebelandbird.com
