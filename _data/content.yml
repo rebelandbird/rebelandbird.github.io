@@ -1,7 +1,7 @@
 # Hero
 description: |
-  Vi kombinerar digital produktutveckling med marknadskommunikation. 
-  Vi får företag att växa - fortare. Våra kunder når fler individer, har mer engagerade användare och fler betalande kunder. 
+  Vi kombinerar digital produktutveckling med marknadskommunikation.
+  Vi får företag att växa - fortare. Våra kunder når fler individer, har mer engagerade användare och fler betalande kunder.
 
 # What we do
 offer-title: Vi jobbar med
@@ -35,7 +35,7 @@ offer:
     - Visuell design
 
 # Message
-message: Vi får företag att växa - fortare  
+message: Vi får företag att växa - fortare
 
 clients-title: Exempel på kunder
 
@@ -52,6 +52,10 @@ hiring-button: Lediga tjänster
 hiring: Vi vill bli fler!
 hiring-aboutus: |
   Vilka är vi?
+
+# If hiring-notrightnow is set, it will be displayed instead of a list of positions
+hiring-notrightnow: |
+  Vi vill bli fler men under sommaren kan vi tyvärr inte ta emot din ansökan. Kom gärna tillbaka i augusti - då finns nya spännande tjänster att söka hos oss!
 
 hiring-aboutus-list:
   - Genom knivskarpa insikter och analyser, fantastisk design och de smartaste tekniska lösningarna hjälper vi företag att växa, och att behålla sina kunder. Det är sånt vi brinner för!

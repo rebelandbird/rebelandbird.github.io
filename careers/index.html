@@ -13,9 +13,15 @@ title: Jobba hos Rebel & Bird
         {% endfor %}
         </ul>
     {% endif %}
+
+    {% if site.data.content.hiring-notrightnow %}
+        <p><b>{{ site.data.content.hiring-notrightnow }}</b></p>
+    {% endif %}
 </section>
 
-<a class="button" href="#positions" id="openpositions">{{ site.data.content.openpositions }}</a>
+{% unless site.data.content.hiring-notrightnow %}
+    <a class="button" href="#positions" id="openpositions">{{ site.data.content.openpositions }}</a>
+{% endunless %}
 
 <section class="instagram">
     <div class="sectiontitle">{{ site.data.content.instagram }}</div>
@@ -57,41 +63,42 @@ title: Jobba hos Rebel & Bird
     <div id="instacontainer">
         <div id="instafeed"></div>
     </div>
-
 </section>
 
-<h2 class="sectiontitle">{{ site.data.content.openpositions }}</h2>
+{% unless site.data.content.hiring-notrightnow %}
+    <h2 class="sectiontitle">{{ site.data.content.openpositions }}</h2>
 
-<section id="positions" style="display: block">
-    <ul id="positionlist">
-    {% for position in site.data.positions %}
-        {% if position.hidden == false %}
-            <li data-position="#{{ position.slug }}"><a href="#{{ position.slug }}">{{ position.title }}</a></li>
-        {% endif %}
-    {% endfor %}
-    </ul>
+    <section id="positions" style="display: block">
+        <ul id="positionlist">
+        {% for position in site.data.positions %}
+            {% if position.hidden == false %}
+                <li data-position="#{{ position.slug }}"><a href="#{{ position.slug }}">{{ position.title }}</a></li>
+            {% endif %}
+        {% endfor %}
+        </ul>
 
-    {% for position in site.data.positions %}
-        {% if position.hidden == false %}
-        <div class="position" id="{{ position.slug }}">
-            <h2>{{ position.title }}</h2>
-            {{ position.description | textilize }}
+        {% for position in site.data.positions %}
+            {% if position.hidden == false %}
+            <div class="position" id="{{ position.slug }}">
+                <h2>{{ position.title }}</h2>
+                {{ position.description | textilize }}
 
-            <div class="title">{{ site.data.content.requirements-title }}</div>
-            <ul class="requirements">
-            {% for requirement in position.requirements %}
-                <li><span class="requirement">{{ requirement }}</span></li>
-            {% endfor %}
-            </ul>
-            <div class="submit">
-                {% if position.url %}
-                    <a class="button track" href="{{ position.url }}?utm_source=website" id="{{ position.slug }}-link">{{ site.data.content.applynow }}</a>
-                    <div class="uptrail">{{ site.data.content.uptrailpromo }}</div>
-                {% else %}
-                    <a class="button track" href="mailto:{{ site.data.content.jobsemail }}?subject={{ position.title | cgi_escape }}">{{ site.data.content.applynow }} - {{ site.data.content.jobsemail }}</a>
-                {% endif %}
+                <div class="title">{{ site.data.content.requirements-title }}</div>
+                <ul class="requirements">
+                {% for requirement in position.requirements %}
+                    <li><span class="requirement">{{ requirement }}</span></li>
+                {% endfor %}
+                </ul>
+                <div class="submit">
+                    {% if position.url %}
+                        <a class="button track" href="{{ position.url }}?utm_source=website" id="{{ position.slug }}-link">{{ site.data.content.applynow }}</a>
+                        <div class="uptrail">{{ site.data.content.uptrailpromo }}</div>
+                    {% else %}
+                        <a class="button track" href="mailto:{{ site.data.content.jobsemail }}?subject={{ position.title | cgi_escape }}">{{ site.data.content.applynow }} - {{ site.data.content.jobsemail }}</a>
+                    {% endif %}
+                </div>
             </div>
-        </div>
-        {% endif %}
-    {% endfor %}
-</section>
+            {% endif %}
+        {% endfor %}
+    </section>
+{% endunless %}
