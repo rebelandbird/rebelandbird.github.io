@@ -42,7 +42,7 @@ title: Jobba hos Rebel & Bird
                 html.push('<div class="instacol">');
                 for (var i = 0; i < len; i++) {
                     html.push(
-                        '<a href="' + result.data[i].link + '"><img src="' + result.data[i].images.thumbnail.url + '" title="' + result.data[i].caption.text + '"></a>'
+                        '<a href="' + result.data[i].link + '"><img src="' + result.data[i].images.thumbnail.url + '" title="' + htmlEntities(result.data[i].caption.text) + '"></a>'
                     );
 
                     if ((i + 1) % 2 == 0) {
@@ -58,6 +58,10 @@ title: Jobba hos Rebel & Bird
             }
         });
         feed.run();
+
+        function htmlEntities(str) {
+            return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        }        
     </script>
 
     <div id="instacontainer">
