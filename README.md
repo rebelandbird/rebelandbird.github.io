@@ -10,6 +10,6 @@ This is the source of the R&B website. Powered by [Jekyll](http://jekyllrb.com) 
 
 Note that this is a public repository, so mind the creativeness of profane language in commit messages. :thumbsup:
 
-*To include a tracking tag/script or similar*, use [Google Tag Manager](tagmanager.google.com) - do not insert it directly into the code.
+*To include a tracking tag/script or similar*, use [Google Tag Manager](http://tagmanager.google.com) - do not insert it directly into the code.
 
 Not an R&B employee and you are reading this? Check out our [open positions](http://www.rebelandbird.com/#positions) and get in touch! :rainbow:
